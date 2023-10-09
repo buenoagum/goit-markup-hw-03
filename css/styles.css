@@ -32,6 +32,7 @@ body{
     list-style: none;
     padding-left: 0;
     display: flex;
+    justify-content: center;
 }
 
 .link{
@@ -61,6 +62,23 @@ body{
     letter-spacing: 0.32px;
 }
 
+.studio {
+    gap: 40px;
+}
+
+.info {
+    gap: 40px;
+}
+
+.strategy{
+    gap: 24px;
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .bg-dark{
     background-color:var(--navyblue);
     padding-top: 188px;
@@ -71,8 +89,8 @@ body{
 .hero-class{
     color: var(--white);
     text-align: center;
-    font-size: 56;
-    font-weight: 700;
+    font-size: 56px;
+    font-weight: 700px;
     line-height: 60px; /* 107.143% */
     letter-spacing: 1.12px;
     text-transform: uppercase;
@@ -97,6 +115,17 @@ body{
 
 .d-flex {
     display: flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .d-flex {
+    align-items: center;
+    gap: 76px;
 }
 
 .team-name{
